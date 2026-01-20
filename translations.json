@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "en": {
     "title": "Valentine's Request",
@@ -28,67 +27,4 @@
     "sad_4": "¡Me rompes el corazón!",
     "sad_5": "Estaré muy triste..."
   }
-=======
-<<<<<<< HEAD
-{
-  "en": {
-    "title": "Valentine's Request",
-    "question": "Will you be my Valentine?",
-    "yes": "Yes!",
-    "no": "No",
-    "yay": "Yay! I love you! ❤️",
-    "intro": "I have something to ask you...",
-    "next": "Next",
-    "sad_1": "Are you sure?",
-    "sad_2": "Think again...",
-    "sad_3": "Please? 🥺",
-    "sad_4": "You're breaking my heart!",
-    "sad_5": "I'll be very sad..."
-  },
-  "es": {
-    "title": "Invitación de San Valentín",
-    "question": "¿Quieres ser mi San Valentín?",
-    "yes": "¡Sí!",
-    "no": "No",
-    "yay": "¡Yuuuuju! ¡Te amo! ❤️",
-    "intro": "Tengo algo que preguntarte...",
-    "next": "Siguiente",
-    "sad_1": "¿Estás segura?",
-    "sad_2": "Piénsalo bien...",
-    "sad_3": "¿Por favor? 🥺",
-    "sad_4": "¡Me rompes el corazón!",
-    "sad_5": "Estaré muy triste..."
-  }
-=======
-{
-  "en": {
-    "title": "Valentine's Request",
-    "question": "Will you be my Valentine?",
-    "yes": "Yes!",
-    "no": "No",
-    "yay": "Yay! I love you! ❤️",
-    "intro": "I have something to ask you...",
-    "next": "Next",
-    "sad_1": "Are you sure?",
-    "sad_2": "Think again...",
-    "sad_3": "Please? 🥺",
-    "sad_4": "You're breaking my heart!",
-    "sad_5": "I'll be very sad..."
-  },
-  "es": {
-    "title": "Invitación de San Valentín",
-    "question": "¿Quieres ser mi San Valentín?",
-    "yes": "¡Sí!",
-    "no": "No",
-    "yay": "¡Yuuuuju! ¡Te amo! ❤️",
-    "intro": "Tengo algo que preguntarte...",
-    "next": "Siguiente",
-    "sad_1": "¿Estás segura?",
-    "sad_2": "Piénsalo bien...",
-    "sad_3": "¿Por favor? 🥺",
-    "sad_4": "¡Me rompes el corazón!",
-    "sad_5": "Estaré muy triste..."
-  }
->>>>>>> 8c8ea6be635f743438b274efa6a533767fb7897b
->>>>>>> 4e00b81ee60ce796aad778850d30665f4e0293e9
 }
