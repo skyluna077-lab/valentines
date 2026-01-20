@@ -1,3 +1,67 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Request</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="language-selector">
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('bi')">BI</button>
+    </div>
+
+    <audio id="fanfare-audio" preload="auto">
+        <source src="https://cdn.pixabay.com/audio/2021/08/04/audio_12b0c7443c.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container" id="intro-content">
+        <div class="card">
+            <div class="gif-container">
+                <img src="intro_bear.png" alt="Shy Bear">
+            </div>
+            <h1 id="intro-text">I have something to ask you...</h1>
+            <button class="btn yes-btn" id="next-btn" onclick="showQuestion()">Next</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="main-content">
+        <div class="card">
+            <div class="gif-container" id="gif-box">
+                <img src="question_bear.png" alt="Cute Bear" id="display-gif">
+            </div>
+            <h1 id="question-text">Will you be my Valentine?</h1>
+            <div class="button-group">
+                <button id="yes-btn" class="btn yes-btn" onclick="sayYes()">Yes!</button>
+                <button id="no-btn" class="btn no-btn" onmouseover="moveNoButton()"
+                    onclick="handleNoClick()">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="celebration" class="celebration hidden">
+        <div class="card">
+            <h1 id="yay-text">Yay! I love you! ❤️</h1>
+            <div class="gif-container">
+                <img src="celebration_bear.png" alt="Happy Celebration">
+            </div>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,4 +127,5 @@
     <script src="script.js"></script>
 </body>
 
+>>>>>>> 4e00b81ee60ce796aad778850d30665f4e0293e9
 </html>
