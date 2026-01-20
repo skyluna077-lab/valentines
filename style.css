@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8c8ea6be635f743438b274efa6a533767fb7897b
 :root {
     --primary-color: #ff4d6d;
     --secondary-color: #ffccd5;
@@ -283,6 +286,8 @@ h1 {
         top: 10px;
         right: 10px;
     }
+<<<<<<< HEAD
+=======
 =======
 :root {
     --primary-color: #ff4d6d;
@@ -569,4 +574,5 @@ h1 {
         right: 10px;
     }
 >>>>>>> 4e00b81ee60ce796aad778850d30665f4e0293e9
+>>>>>>> 8c8ea6be635f743438b274efa6a533767fb7897b
 }

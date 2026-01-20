@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8c8ea6be635f743438b274efa6a533767fb7897b
 let currentLang = 'en';
 let noClickCount = 0;
 const translations = {
@@ -202,6 +205,8 @@ function startConfetti() {
         confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
     }, 250);
 }
+<<<<<<< HEAD
+=======
 =======
 let currentLang = 'en';
 let noClickCount = 0;
@@ -407,3 +412,4 @@ function startConfetti() {
     }, 250);
 }
 >>>>>>> 4e00b81ee60ce796aad778850d30665f4e0293e9
+>>>>>>> 8c8ea6be635f743438b274efa6a533767fb7897b
