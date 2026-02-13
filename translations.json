@@ -5,13 +5,8 @@
     "yes": "Yes!",
     "no": "No",
     "yay": "Yay! I love you! ❤️",
-    "intro": "I have something to ask you...",
-    "next": "Next",
-    "sad_1": "Are you sure?",
-    "sad_2": "Think again...",
-    "sad_3": "Please? 🥺",
-    "sad_4": "You're breaking my heart!",
-    "sad_5": "I'll be very sad..."
+    "intro": "Hi Vivienne I have something to ask you...",
+    "next": "Next"
   },
   "es": {
     "title": "Invitación de San Valentín",
@@ -20,11 +15,6 @@
     "no": "No",
     "yay": "¡Yuuuuju! ¡Te amo! ❤️",
     "intro": "Tengo algo que preguntarte...",
-    "next": "Siguiente",
-    "sad_1": "¿Estás segura?",
-    "sad_2": "Piénsalo bien...",
-    "sad_3": "¿Por favor? 🥺",
-    "sad_4": "¡Me rompes el corazón!",
-    "sad_5": "Estaré muy triste..."
+    "next": "Siguiente"
   }
 }

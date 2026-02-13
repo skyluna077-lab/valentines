@@ -7,13 +7,8 @@ const translations = {
         "yes": "Yes!",
         "no": "No",
         "yay": "Yay! I love you! ❤️",
-        "intro": "I have something to ask you...",
-        "next": "Next",
-        "sad_1": "Are you sure?",
-        "sad_2": "Think again...",
-        "sad_3": "Please? 🥺",
-        "sad_4": "You're breaking my heart!",
-        "sad_5": "I'll be very sad..."
+        "intro": "Hi Vivienne I have something to ask you...",
+        "next": "Next"
     },
     "bi": {
         "title": "Invitasyon sa Valentine",
@@ -22,12 +17,7 @@ const translations = {
         "no": "Dai",
         "yay": "Yay! Padangat ta ka! ❤️",
         "intro": "Igwa akong ihahapot saimo...",
-        "next": "Sunod",
-        "sad_1": "Sigurado ka?",
-        "sad_2": "Isipon mo giraray...",
-        "sad_3": "Pakiulay? 🥺",
-        "sad_4": "Pigpapahibi mo an sakuyang puso!",
-        "sad_5": "Mapupungaw ako pwerte..."
+        "next": "Sunod"
     }
 };
 
@@ -151,33 +141,13 @@ function sayYes() {
     }());
 }
 
-function moveNoButton() {
-    const btn = document.getElementById('no-btn');
-    const x = Math.random() * (window.innerWidth - btn.offsetWidth);
-    const y = Math.random() * (window.innerHeight - btn.offsetHeight);
-
-    btn.style.position = 'fixed';
-    btn.style.left = `${x}px`;
-    btn.style.top = `${y}px`;
-}
-
 function handleNoClick() {
     noClickCount++;
-    const questionText = document.getElementById('question-text');
-    const noBtn = document.getElementById('no-btn');
     const yesBtn = document.getElementById('yes-btn');
 
-    if (noClickCount <= 5) {
-        const sadKey = `sad_${noClickCount}`;
-        questionText.innerText = translations[currentLang][sadKey];
-
-        // Make the yes button bigger each time!
-        const newSize = 1.2 + (noClickCount * 0.2);
-        yesBtn.style.transform = `scale(${newSize})`;
-    } else {
-        // After 5 clicks, maybe hide the no button or something funny
-        noBtn.classList.add('hidden');
-    }
+    // Make the yes button bigger each time!
+    const newSize = 1.0 + (noClickCount * 0.5);
+    yesBtn.style.transform = `scale(${newSize})`;
 }
 
 function startConfetti() {
