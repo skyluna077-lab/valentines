@@ -7,7 +7,7 @@ const translations = {
         "yes": "Yes!",
         "no": "No",
         "yay": "Yay! I love you! ❤️",
-        "intro": "Hi Vivienne, I have something to ask you....,",
+        "intro": "Hi Vivienne, I have something to ask you....",
         "next": "Next",
         "sad_1": "Are you sure?",
         "sad_2": "Think again...",
@@ -162,8 +162,10 @@ function handleNoClick() {
         questionText.innerText = translations[currentLang][sadKey];
 
         // Make the yes button bigger each time!
-        const newSize = 1.0 + (noClickCount * 0.5);
-        yesBtn.style.transform = `scale(${newSize})`;
+        // Make the yes button bigger each time!
+        const currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize);
+        const newSize = currentSize * 1.5; // Increase font size by 50% each time
+        yesBtn.style.fontSize = `${newSize}px`;
     } else {
         // After 5 clicks, maybe hide the no button or something funny
         noBtn.classList.add('hidden');
